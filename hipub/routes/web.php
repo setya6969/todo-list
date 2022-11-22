@@ -24,3 +24,11 @@ Route::get('/register', function (){
 Route::get('/dashboard', function (){
     return view('user/dashboard');
 });
+
+Route::get('/upload', function (){
+    return view('user/upload');
+});
+
+Route::get('/artikel', function(){
+    return view('user/artikel');
+});
