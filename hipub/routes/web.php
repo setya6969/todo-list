@@ -32,3 +32,15 @@ Route::get('/upload', function (){
 Route::get('/artikel', function(){
     return view('user/artikel');
 });
+
+Route::get('/log', function(){
+    return view('user/log');
+});
+
+Route::get('/pembayaran', function(){
+    return view('user/pembayaran');
+});
+
+Route::get('/editor/details', function(){
+    return view('editor/details');
+});
